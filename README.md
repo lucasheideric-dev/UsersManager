@@ -93,7 +93,56 @@ Este projeto foi desenvolvido para testar conhecimentos de **backend**, **fronte
 ## Como Rodar o Projeto
 
 ### Backend
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/controle-de-usuarios.git
-   cd controle-de-usuarios/backend
+
+1. **Clone o repositório**:
+
+    ```bash
+    git clone https://github.com/seu-usuario/controle-de-usuarios.git
+    cd controle-de-usuarios/backend
+    ```
+
+2. **Instale as dependências**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Execute o Docker para rodar o ambiente de backend**:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+    A API estará disponível em [http://localhost:8080](http://localhost:8080).
+
+### Frontend
+
+1. **Clone o repositório**:
+
+    ```bash
+    git clone https://github.com/seu-usuario/controle-de-usuarios.git
+    cd controle-de-usuarios/frontend
+    ```
+
+2. **Instale as dependências**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Inicie o servidor de desenvolvimento**:
+
+    ```bash
+    npm start
+    ```
+
+    A interface do usuário estará disponível em [http://localhost:3000](http://localhost:3000).
+
+## Testes
+
+### Testes Unitários (Backend)
+
+Para rodar os testes unitários no backend, execute:
+
+```bash
+docker exec -it backend-container-name php vendor/bin/phpunit
