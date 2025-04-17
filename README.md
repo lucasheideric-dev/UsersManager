@@ -90,6 +90,10 @@ Este projeto foi desenvolvido para testar conhecimentos de **backend**, **fronte
 
 ![Teste Robot Framework](https://i.imgur.com/ubqVjLq.png)
 
+### 15. Estrutura de Contêineres Docker
+
+![Docker](https://i.imgur.com/KycXWtv.png)
+
 ## Como Rodar o Projeto
 
 ### Backend
